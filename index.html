@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
+    </style>
+    <title>Color Picker</title>
+</head>
+<body>
+    <div class="colorPickerCont">
+
+        <div class="colorPrev">
+            <p class="hexTxt">#000000</p>
+        </div>
+
+        <div class="inputsCont">
+            <div class="wrap">
+                <p class="initial">R</p>
+                <input type="range" name="Red" class="red Range" min="0" max="255" value="0">
+            </div>
+
+            <div class="wrap">
+                <p class="initial">G</p>
+                <input type="range" name="Green" class="green Range" min="0" max="255" value="0">
+            </div>
+
+            <div class="wrap">
+                <p class="initial">B</p>
+                <input type="range" name="Blue" class="blue Range" min="0" max="255" value="0">
+
+            </div>
+        </div>
+    </div>
+
+<script src="script.js"></script>
+</body>
+</html>
